@@ -10,7 +10,7 @@ int main() {
 			  {{2, 1, 2, 2}, {2, 2, 1, 2}, {0, 0, 0, 0}, {0, 0, 0, 0}}};
   int tamanho = 4, n_camadas[3] = {4, 4, 2}, r_camadas[4] = {4, 4, 4, 2};
   float resultado[4][4];
-  float b[3][4] = {{0, 0, 0, 0}, {0, 0, 0, 0}};
+  float b[3][4] = {{1, 1, 1, 1}, {1, 1, 1, 1}, {1, 1, 0, 0}};
   int i, j;
 
   // Inicializa a variável resultado com 0s
